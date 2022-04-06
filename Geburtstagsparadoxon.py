@@ -7,6 +7,7 @@ def prawdop(n):
     return 1 - pp
 
 print('n - liczba osob;\nP - prawdopodobienstwo, ze dwie osoby beda miec urodziny w ten sam dzien\n')
+#print('Teoria:')
 #for j in range(171):
 #    print('n =',j,';  P =',prawdop(j)*100,'%')
 
