@@ -30,7 +30,7 @@ s=23 # parametr liczby ludzi do symulacji
 print('Teoria:')
 print('n =',s,';  P =',prawdop(s)*100,'%')
 print('Symulacja:')
-for i in range(100000):
+for i in range(10000):
     symul(s)
 print('n =',s,';  P =',100*tensamdzien/(tensamdzien+roznedni),'%')
 
